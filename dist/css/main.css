@@ -1,14 +1,30 @@
 @font-face {
-  font-family: "Video400";
-  src: url("../fonts/Video-Regular.ttf");
+  font-family: "ProximaBold";
+  src: url("../fonts/ProximaSoft-Bold.ttf");
 }
 @font-face {
-  font-family: "Video300";
-  src: url("../fonts/Video-Light.ttf");
+  font-family: "ProximaSemiBold";
+  src: url("../fonts/ProximaSoft-SemiBold.ttf");
 }
 @font-face {
-  font-family: "WorkSans";
-  src: url("../fonts/WorkSans.ttf");
+  font-family: "ProximaMedium";
+  src: url("../fonts/ProximaSoft-Medium.ttf");
+}
+@font-face {
+  font-family: "ProximaRegular";
+  src: url("../fonts/ProximaSoft-Regular.ttf");
+}
+@font-face {
+  font-family: "ChocolatesRegular";
+  src: url("../fonts/TTChocolatesTrialRegular.ttf");
+}
+@font-face {
+  font-family: "ChocolatesDemiBold";
+  src: url("../fonts/TTChocolatesTrialDemiBold.ttf");
+}
+@font-face {
+  font-family: "ChocolatesLight";
+  src: url("../fonts/TTChocolatesTrialLight.ttf");
 }
 * {
   margin: 0;
@@ -20,18 +36,300 @@
   outline: 0;
   box-sizing: border-box;
   background-color: transparent;
-  color: #020206;
+  color: #4E4E4E;
 }
 
 html {
   scroll-behavior: smooth;
+  background-color: #F2F2F2;
 }
 
 .container {
-  width: 1400px;
+  width: 1120px;
   margin: 0 auto;
-  height: 100vh;
   position: relative;
   overflow: hidden;
+  border: dotted 1px red;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+header .right-container {
+  display: flex;
+}
+header .right-container nav {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+header .right-container nav ul {
+  display: flex;
+  list-style-type: none;
+  transition: opacity 0.2s, top 0.1s;
+}
+header .right-container nav ul li {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2px 0;
+  flex-direction: column;
+}
+header .right-container nav ul li hr {
+  margin: 0 13px;
+  height: 2px;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+header .right-container nav ul li hr.active {
+  background-color: #D91F25;
+}
+header .right-container nav ul li.parent-sub-menu {
+  position: relative;
+}
+header .right-container nav ul li.parent-sub-menu a {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px 2px 15px;
+  font-family: "ProximaBold", sans-serif;
+  color: #0B594D;
+  font-size: 20px;
+}
+header .right-container nav ul li.parent-sub-menu a span.active {
+  color: blue;
+}
+header .right-container nav ul li.parent-sub-menu a svg {
+  height: 12px;
+  margin: 3px 0px 0 6px;
+  fill: #319181;
+}
+header .right-container nav ul li.parent-sub-menu a svg.active {
+  fill: blue;
+}
+header .right-container nav ul li a {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 15px 2px 15px;
+  font-family: "ProximaBold", sans-serif;
+  color: #0B594D;
+  font-size: 20px;
+}
+header .right-container nav ul li a:hover {
+  color: #319181;
+}
+header .right-container nav ul li a.active {
+  color: blue;
+}
+header .right-container nav ul li .sub-menu {
+  position: absolute;
+  left: -10px;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  width: 100%;
+  z-index: 2;
+  background-color: #319181;
+  visibility: hidden;
+  opacity: 0;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom: solid 3px #0B594D;
+}
+header .right-container nav ul li .sub-menu li {
+  padding: 2px 0;
+}
+header .right-container nav ul li .sub-menu li:hover {
+  background-color: #fff;
+}
+header .right-container nav ul li .sub-menu a {
+  color: #fff;
+  font-family: "ProximaMedium", sans-serif;
+}
+header .right-container nav ul li .sub-menu a:hover {
+  color: #0B594D;
+}
+header .right-container nav ul li .sub-menu hr {
+  margin: 0 13px;
+  height: 0px;
+  background-color: transparent;
+}
+header .right-container nav ul li .sub-menu hr.active {
+  background-color: #D91F25;
+  height: 2px;
+}
+header .right-container nav ul li.parent-sub-menu:hover span {
+  color: #319181;
+}
+header .right-container nav ul li.parent-sub-menu.hover-on:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+  top: 38px;
+}
+header .right-container .languages {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 16px;
+}
+header .right-container .languages img {
+  cursor: pointer;
+}
+
+main {
+  margin-top: 20px;
+}
+main section {
+  padding: 60px 70px;
+  background-color: #fff;
+}
+main section .title-container {
+  margin-bottom: 40px;
+}
+main section .title-container h1 {
+  font-family: "ProximaBold", sans-serif;
+  color: #0B594D;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+main section .title-container .sub-title {
+  font-family: "ChocolatesRegular", sans-serif;
+  color: #4E4E4E;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main section .title-container .sub-title span.circle {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #D91F25;
+  display: inline-flex;
+}
+main section .boxes-container {
+  display: flex;
+  gap: 20px;
+}
+main section .boxes-container .box {
+  flex-basis: 33.33333%;
+  background-color: #F2F2F2;
+}
+main section .boxes-container .box img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .boxes-container .box .titles-wrapper {
+  padding: 10px 20px 20px;
+}
+main section .boxes-container .box .titles-wrapper .titles .title {
+  font-family: "ProximaSemiBold", sans-serif;
+  font-size: 22px;
+  color: #0B594D;
+  line-height: 1.2em;
+}
+main section .boxes-container .box .titles-wrapper hr {
+  height: 2px;
+  width: 60px;
+  background-color: #D91F25;
+  margin: 10px 0;
+}
+main section .boxes-container .box .titles-wrapper .text {
+  font-family: "ChocolatesRegular", sans-serif;
+  color: #4E4E4E;
+  font-size: 17px;
+  line-height: 1.2em;
+}
+
+footer {
+  background-color: #0B594D;
+  border: dotted 1px red;
+  padding: 30px 40px;
+  gap: 60px;
+  display: flex;
+}
+footer .box {
+  flex-basis: 33.3333%;
+}
+footer .left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .left-container .text {
+  color: #fff;
+  font-family: "ChocolatesRegular", sans-serif;
+  font-size: 16px;
+}
+footer .central-container .title {
+  color: #fff;
+  font-family: "ProximaMedium", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+footer .central-container ul li {
+  color: #fff;
+  font-family: "ProximaRegular", sans-serif;
+  font-size: 16px;
+  margin: 3px 0;
+  list-style-position: inside;
+}
+footer .right-container .title {
+  color: #fff;
+  font-family: "ProximaMedium", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+footer .right-container p {
+  color: #fff;
+  font-family: "ChocolatesLight", sans-serif;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+footer .right-container p.small {
+  font-size: 16px;
+}
+footer .right-container p.bold,
+footer .right-container p span {
+  font-family: "ChocolatesDemiBold", sans-serif;
+  color: #fff;
+}
+footer .right-container p a {
+  color: #fff;
+  font-family: "ChocolatesLight", sans-serif;
+  line-height: 1.2em;
+}
+footer .right-container p.margin-bottom {
+  margin-bottom: 6px;
+}
+footer .right-container a.facebook {
+  color: #fff;
+  font-family: "ChocolatesLight", sans-serif;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+footer .right-container button {
+  font-family: "ChocolatesDemiBold", sans-serif;
+  color: #fff;
+  height: 24px;
+  padding: 0 10px;
+  background-color: #319181;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
