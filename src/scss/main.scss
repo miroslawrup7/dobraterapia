@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Video400';
+    src: url("../fonts/Video-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Video300';
+    src: url("../fonts/Video-Light.ttf");
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url("../fonts/WorkSans.ttf");
+}
+
+$niebieski500: #45D5EC;
+$granatowy800: #020206;
+$szaryfont: #B2B2B4;
+$zolty500: #FCA311;
+$zolty300: #FEE3B8;
+$bialy200: #FEFEFE;
+$szarawy: #CCCCCF;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: $granatowy800;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    height: 100vh; // zmień na 100% po umieszczeniu w Wordpress
+    position: relative;
+    overflow: hidden;
+}

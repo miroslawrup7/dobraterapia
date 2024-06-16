@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Video400";
+  src: url("../fonts/Video-Regular.ttf");
+}
+@font-face {
+  font-family: "Video300";
+  src: url("../fonts/Video-Light.ttf");
+}
+@font-face {
+  font-family: "WorkSans";
+  src: url("../fonts/WorkSans.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1.4;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: #020206;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */
