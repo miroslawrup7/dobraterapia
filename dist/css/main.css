@@ -258,7 +258,7 @@ main section.margin-top {
   width: 60px;
   background-color: #D91F25;
   margin: 10px 0 10px 4px;
-  z-index: 3;
+  z-index: 1;
   position: relative;
 }
 .sec-1 .boxes-container .box .titles-wrapper .text {
@@ -320,6 +320,8 @@ main section.margin-top {
   width: 60px;
   background-color: #D91F25;
   margin: 10px 0 10px 4px;
+  z-index: 1;
+  position: relative;
 }
 .sec-2 .description-container .text {
   font-size: 20px;

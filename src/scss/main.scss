@@ -344,7 +344,7 @@ main {
                     width: 60px;
                     background-color: $czerwony;
                     margin: 10px 0 10px 4px;
-                    z-index: 3;
+                    z-index: 1;
                     position: relative;
                 }
 
@@ -420,6 +420,9 @@ main {
             width: 60px;
             background-color: $czerwony;
             margin: 10px 0 10px 4px;
+            z-index: 1;
+            position: relative;
+
         }
 
         .text {
