@@ -49,7 +49,6 @@ html {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  border: dotted 1px red;
 }
 
 header {
@@ -191,16 +190,20 @@ main section {
   padding: 60px 70px;
   background-color: #fff;
 }
-main section .title-container {
+main section.horizontal {
+  display: flex;
+}
+
+.title-container {
   margin-bottom: 40px;
 }
-main section .title-container h1 {
+.title-container h1 {
   font-family: "ProximaBold", sans-serif;
   color: #0B594D;
   font-size: 50px;
   text-transform: uppercase;
 }
-main section .title-container .sub-title {
+.title-container .sub-title {
   font-family: "ChocolatesRegular", sans-serif;
   color: #4E4E4E;
   font-size: 28px;
@@ -208,47 +211,123 @@ main section .title-container .sub-title {
   align-items: center;
   gap: 10px;
 }
-main section .title-container .sub-title span.circle {
+.title-container .sub-title span.circle {
   height: 6px;
   width: 6px;
   border-radius: 50%;
   background-color: #D91F25;
   display: inline-flex;
 }
-main section .boxes-container {
+
+.boxes-container {
   display: flex;
   gap: 20px;
 }
-main section .boxes-container .box {
+.boxes-container .box {
   flex-basis: 33.33333%;
   background-color: #F2F2F2;
 }
-main section .boxes-container .box img {
+.boxes-container .box img {
   width: 100%;
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main section .boxes-container .box .titles-wrapper {
+.boxes-container .box .titles-wrapper {
   padding: 10px 20px 20px;
 }
-main section .boxes-container .box .titles-wrapper .titles .title {
+.boxes-container .box .titles-wrapper .titles .title {
   font-family: "ProximaSemiBold", sans-serif;
   font-size: 22px;
   color: #0B594D;
   line-height: 1.2em;
 }
-main section .boxes-container .box .titles-wrapper hr {
+.boxes-container .box .titles-wrapper hr {
   height: 2px;
   width: 60px;
   background-color: #D91F25;
-  margin: 10px 0;
+  margin: 10px 0 10px 4px;
 }
-main section .boxes-container .box .titles-wrapper .text {
+.boxes-container .box .titles-wrapper .text {
   font-family: "ChocolatesRegular", sans-serif;
   color: #4E4E4E;
   font-size: 17px;
   line-height: 1.2em;
+}
+
+.picture-container {
+  flex-basis: 45%;
+}
+.picture-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.description-container {
+  flex-basis: 55%;
+}
+.description-container h2 {
+  font-size: 35px;
+  color: #0B594D;
+  font-family: "ProximaRegular", sans-serif;
+  text-transform: uppercase;
+  line-height: 0.5em;
+}
+.description-container h2 br {
+  line-height: 0.5em;
+}
+.description-container h2 strong {
+  font-size: 35px;
+  color: #0B594D;
+  font-family: "ProximaBold", sans-serif;
+}
+.description-container hr {
+  height: 2px;
+  width: 60px;
+  background-color: #D91F25;
+  margin: 10px 0 10px 4px;
+}
+.description-container .text {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+}
+.description-container ul {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+  margin: 20px 0 20px 20px;
+  list-style: none;
+}
+.description-container ul li {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.description-container ul li::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  margin-right: 12px;
+  background-color: #0B594D;
+  margin-left: -0.7em;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+.description-container .btn {
+  display: flex;
+  height: 36px;
+  padding: 0 20px 1px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #0B594D;
+  color: #fff;
+  font-size: 18px;
+  font-family: "ProximaBold", sans-serif;
+  align-items: center;
+  border-radius: 10px;
 }
 
 footer {
