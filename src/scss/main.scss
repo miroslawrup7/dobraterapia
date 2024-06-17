@@ -359,6 +359,17 @@ main {
                     position: relative;
                 }
             }
+
+            &::after {
+                content: "test";
+                position: absolute;
+                top: 75px;
+                right: 30px;
+                background-image: url("../img/logo_over.png");
+                background-repeat: no-repeat;
+                width: 78px;
+                height: 209px;
+            }
         }
     }
 }
