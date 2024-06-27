@@ -177,25 +177,24 @@ header .right-container .languages img {
   cursor: pointer;
 }
 
-main {
+.home {
   margin-top: 20px;
 }
-main section {
+.home section {
   padding: 60px 70px;
   background-color: #fff;
   position: relative;
 }
-main section.horizontal {
+.home section.horizontal {
   display: flex;
 }
-main section.margin-top {
+.home section.margin-top {
   margin-top: 20px;
 }
-
-.sec-1 .title-container {
+.home .sec-1 .title-container {
   margin-bottom: 40px;
 }
-.sec-1 .title-container h1 {
+.home .sec-1 .title-container h1 {
   font-family: "ProximaBold", sans-serif;
   color: #0B594D;
   font-size: 50px;
@@ -203,7 +202,7 @@ main section.margin-top {
   z-index: 3;
   position: relative;
 }
-.sec-1 .title-container .sub-title {
+.home .sec-1 .title-container .sub-title {
   font-family: "ChocolatesRegular", sans-serif;
   color: #4E4E4E;
   font-size: 28px;
@@ -213,39 +212,39 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-1 .title-container .sub-title span.circle {
+.home .sec-1 .title-container .sub-title span.circle {
   height: 6px;
   width: 6px;
   border-radius: 50%;
   background-color: #D91F25;
   display: inline-flex;
 }
-.sec-1 .boxes-container {
+.home .sec-1 .boxes-container {
   display: flex;
   gap: 20px;
 }
-.sec-1 .boxes-container .box {
+.home .sec-1 .boxes-container .box {
   flex-basis: 33.33333%;
   background-color: #F6F6F6;
   z-index: 1;
   position: relative;
 }
-.sec-1 .boxes-container .box img {
+.home .sec-1 .boxes-container .box img {
   width: 100%;
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.sec-1 .boxes-container .box .titles-wrapper {
+.home .sec-1 .boxes-container .box .titles-wrapper {
   padding: 10px 20px 20px;
 }
-.sec-1 .boxes-container .box .titles-wrapper .titles .title {
+.home .sec-1 .boxes-container .box .titles-wrapper .titles .title {
   font-family: "ProximaSemiBold", sans-serif;
   font-size: 22px;
   color: #0B594D;
   line-height: 1.2em;
 }
-.sec-1 .boxes-container .box .titles-wrapper hr {
+.home .sec-1 .boxes-container .box .titles-wrapper hr {
   height: 2px;
   width: 60px;
   background-color: #D91F25;
@@ -253,7 +252,7 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-1 .boxes-container .box .titles-wrapper .text {
+.home .sec-1 .boxes-container .box .titles-wrapper .text {
   font-family: "ChocolatesRegular", sans-serif;
   color: #4E4E4E;
   font-size: 17px;
@@ -261,7 +260,7 @@ main section.margin-top {
   z-index: 3;
   position: relative;
 }
-.sec-1 .boxes-container .box::after {
+.home .sec-1 .boxes-container .box::after {
   content: "";
   position: absolute;
   top: 75px;
@@ -271,26 +270,25 @@ main section.margin-top {
   width: 78px;
   height: 209px;
 }
-
-.sec-2 {
+.home .sec-2 {
   padding-top: 20px;
 }
-.sec-2 .picture-container {
+.home .sec-2 .picture-container {
   flex-basis: 50%;
   display: flex;
   align-items: center;
   z-index: 1;
   position: relative;
 }
-.sec-2 .picture-container img {
+.home .sec-2 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
 }
-.sec-2 .description-container {
+.home .sec-2 .description-container {
   flex-basis: 50%;
 }
-.sec-2 .description-container h2 {
+.home .sec-2 .description-container h2 {
   font-size: 34px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
@@ -299,15 +297,15 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-2 .description-container h2 br {
+.home .sec-2 .description-container h2 br {
   line-height: 0.5em;
 }
-.sec-2 .description-container h2 strong {
+.home .sec-2 .description-container h2 strong {
   font-size: 34px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-2 .description-container hr {
+.home .sec-2 .description-container hr {
   height: 2px;
   width: 60px;
   background-color: #D91F25;
@@ -315,14 +313,14 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-2 .description-container .text {
+.home .sec-2 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-2 .description-container ul {
+.home .sec-2 .description-container ul {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
@@ -331,12 +329,12 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-2 .description-container ul li {
+.home .sec-2 .description-container ul li {
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.sec-2 .description-container ul li::before {
+.home .sec-2 .description-container ul li::before {
   content: "";
   height: 6px;
   width: 6px;
@@ -347,7 +345,7 @@ main section.margin-top {
   margin-top: 12px;
   flex-shrink: 0;
 }
-.sec-2 .description-container .btn {
+.home .sec-2 .description-container .btn {
   display: flex;
   height: 36px;
   padding: 0 20px 1px 20px;
@@ -362,11 +360,10 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-
-.sec-3 {
+.home .sec-3 {
   padding-bottom: 20px;
 }
-.sec-3 h2 {
+.home .sec-3 h2 {
   font-size: 34px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
@@ -375,12 +372,12 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-3 h2 strong {
+.home .sec-3 h2 strong {
   font-size: 34px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-3 hr {
+.home .sec-3 hr {
   height: 2px;
   width: 60px;
   background-color: #D91F25;
@@ -388,23 +385,22 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-3 .text {
+.home .sec-3 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-
-.sec-4 {
+.home .sec-4 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-4 .picture-container {
+.home .sec-4 .picture-container {
   flex-basis: 50%;
 }
-.sec-4 .picture-container img {
+.home .sec-4 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -412,63 +408,61 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-4 .description-container {
+.home .sec-4 .description-container {
   flex-basis: 50%;
 }
-.sec-4 .description-container h3 {
+.home .sec-4 .description-container h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-4 .description-container h3 strong {
+.home .sec-4 .description-container h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-4 .description-container .text {
+.home .sec-4 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-
-.sec-5 {
+.home .sec-5 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-5 h3 {
+.home .sec-5 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-5 h3 strong {
+.home .sec-5 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-5 .text {
+.home .sec-5 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-
-.sec-6 {
+.home .sec-6 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-6 .picture-container {
+.home .sec-6 .picture-container {
   flex-basis: 50%;
 }
-.sec-6 .picture-container img {
+.home .sec-6 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -476,10 +470,10 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-6 .description-container {
+.home .sec-6 .description-container {
   flex-basis: 50%;
 }
-.sec-6 .description-container h3 {
+.home .sec-6 .description-container h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
@@ -487,12 +481,12 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-6 .description-container h3 strong {
+.home .sec-6 .description-container h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-6 .description-container .text {
+.home .sec-6 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
@@ -500,41 +494,39 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-
-.sec-7 {
+.home .sec-7 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-7 h3 {
+.home .sec-7 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-7 h3 strong {
+.home .sec-7 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-7 .text {
+.home .sec-7 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-
-.sec-8 {
+.home .sec-8 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-8 .picture-container {
+.home .sec-8 .picture-container {
   flex-basis: 50%;
 }
-.sec-8 .picture-container img {
+.home .sec-8 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -542,88 +534,85 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-8 .description-container {
+.home .sec-8 .description-container {
   flex-basis: 50%;
 }
-.sec-8 .description-container h3 {
+.home .sec-8 .description-container h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-8 .description-container h3 strong {
+.home .sec-8 .description-container h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-8 .description-container .text {
+.home .sec-8 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-
-.sec-9 {
+.home .sec-9 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-9 h3 {
+.home .sec-9 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-9 h3 strong {
+.home .sec-9 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-9 .text {
+.home .sec-9 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-
-.sec-10 {
+.home .sec-10 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-10 h3 {
+.home .sec-10 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-10 h3 strong {
+.home .sec-10 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-10 .text {
+.home .sec-10 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-
-.sec-11 {
+.home .sec-11 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-11 .picture-container {
+.home .sec-11 .picture-container {
   flex-basis: 50%;
 }
-.sec-11 .picture-container img {
+.home .sec-11 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -631,50 +620,49 @@ main section.margin-top {
   z-index: 1;
   position: relative;
 }
-.sec-11 .description-container {
+.home .sec-11 .description-container {
   flex-basis: 50%;
 }
-.sec-11 .description-container h3 {
+.home .sec-11 .description-container h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-11 .description-container h3 strong {
+.home .sec-11 .description-container h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-11 .description-container .text {
+.home .sec-11 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-
-.sec-12 {
+.home .sec-12 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.sec-12 h3 {
+.home .sec-12 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.sec-12 h3 strong {
+.home .sec-12 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.sec-12 .lists-container {
+.home .sec-12 .lists-container {
   display: flex;
 }
-.sec-12 .lists-container ul {
+.home .sec-12 .lists-container ul {
   z-index: 1;
   position: relative;
   flex-basis: 33.33333%;
@@ -686,12 +674,12 @@ main section.margin-top {
   display: flex;
   flex-direction: column;
 }
-.sec-12 .lists-container ul li {
+.home .sec-12 .lists-container ul li {
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.sec-12 .lists-container ul li::before {
+.home .sec-12 .lists-container ul li::before {
   content: "";
   height: 6px;
   width: 6px;
@@ -701,6 +689,350 @@ main section.margin-top {
   margin-left: -0.7em;
   margin-top: 12px;
   flex-shrink: 0;
+}
+
+.oferta {
+  margin-top: 20px;
+}
+.oferta section {
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #fff;
+  position: relative;
+}
+.oferta section.horizontal {
+  display: flex;
+}
+.oferta section.margin-top {
+  margin-top: 20px;
+}
+.oferta .sec-1 {
+  padding-top: 60px;
+}
+.oferta .sec-1 .title-container h1 {
+  font-family: "ProximaBold", sans-serif;
+  color: #0B594D;
+  font-size: 50px;
+  text-transform: uppercase;
+  z-index: 3;
+  position: relative;
+  margin-bottom: 24px;
+}
+.oferta .sec-1 .title-container .text {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+  z-index: 1;
+  position: relative;
+}
+.oferta .sec-1 .title-container ul {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+  margin: 20px 0 20px 20px;
+  list-style: none;
+  z-index: 1;
+  position: relative;
+}
+.oferta .sec-1 .title-container ul li {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.oferta .sec-1 .title-container ul li::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  margin-right: 12px;
+  background-color: #0B594D;
+  margin-left: -0.7em;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+.oferta .sec-2 {
+  padding-top: 30px;
+}
+.oferta .sec-2 h3 {
+  font-size: 30px;
+  color: #0B594D;
+  font-family: "ProximaSemiBold", sans-serif;
+  z-index: 1;
+  position: relative;
+}
+.oferta .sec-2 hr {
+  height: 2px;
+  width: 60px;
+  background-color: #D91F25;
+  margin: 10px 0 10px 4px;
+  z-index: 1;
+  position: relative;
+}
+.oferta .sec-2 .text {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 50px;
+}
+.oferta .sec-2 .two-col {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+.oferta .sec-2 .two-col:nth-of-type(2) {
+  padding-bottom: 50px;
+}
+.oferta .sec-2 .two-col:nth-of-type(3) {
+  padding-bottom: 0;
+}
+.oferta .sec-2 .two-col .picture-container {
+  width: 375px;
+  height: 375px;
+  background-color: #e6e6e6;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.oferta .sec-2 .two-col .text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.oferta .sec-2 .two-col .text-container .name {
+  padding-bottom: 10px;
+  font-size: 28px;
+  color: #0B594D;
+  font-family: "ProximaSemiBold", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-2 .two-col .text-container .table {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.oferta .sec-2 .two-col .text-container .table .row {
+  border-bottom: 1px solid #9c9c9c;
+  display: flex;
+  padding: 6px 10px 6px 0;
+  z-index: 1;
+}
+.oferta .sec-2 .two-col .text-container .table .row:nth-of-type(4) {
+  border-bottom: none;
+}
+.oferta .sec-2 .two-col .text-container .table .row.head .cell {
+  font-size: 21px;
+  color: #0B594D;
+  font-family: "ProximaBold", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-2 .two-col .text-container .table .row .cell {
+  font-size: 21px;
+  color: #4E4E4E;
+  font-family: "ChocolatesRegular", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-2 .two-col .text-container .table .row .cell:nth-of-type(1) {
+  width: 50%;
+}
+.oferta .sec-2 .two-col .text-container .table .row .cell:nth-of-type(2) {
+  width: 30%;
+}
+.oferta .sec-2 .two-col .text-container .table .row .cell:nth-of-type(3) {
+  width: 20%;
+}
+.oferta .sec-3 {
+  padding-top: 30px;
+}
+.oferta .sec-3 h3 {
+  font-size: 30px;
+  color: #0B594D;
+  font-family: "ProximaSemiBold", sans-serif;
+  z-index: 1;
+  position: relative;
+  text-transform: uppercase;
+}
+.oferta .sec-3 hr {
+  height: 2px;
+  width: 60px;
+  background-color: #D91F25;
+  margin: 10px 0 10px 4px;
+  z-index: 1;
+  position: relative;
+}
+.oferta .sec-3 .text {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+  z-index: 1;
+  position: relative;
+}
+.oferta .sec-3 .two-col {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 20px;
+}
+.oferta .sec-3 .two-col .picture-container {
+  width: 375px;
+  height: 375px;
+  background-color: #e6e6e6;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.oferta .sec-3 .two-col .text-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.oferta .sec-3 .two-col .text-container:nth-of-type(1) {
+  padding-top: 12px;
+}
+.oferta .sec-3 .two-col .text-container .name {
+  padding-bottom: 10px;
+  font-size: 28px;
+  color: #0B594D;
+  font-family: "ProximaSemiBold", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-3 .two-col .text-container .table {
+  display: flex;
+  flex-direction: column;
+}
+.oferta .sec-3 .two-col .text-container .table .row {
+  border-bottom: 1px solid #9c9c9c;
+  display: flex;
+  padding: 6px 10px 6px 0;
+  z-index: 1;
+}
+.oferta .sec-3 .two-col .text-container .table .row:nth-of-type(4) {
+  border-bottom: none;
+}
+.oferta .sec-3 .two-col .text-container .table .row.head .cell {
+  font-size: 21px;
+  color: #0B594D;
+  font-family: "ProximaBold", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-3 .two-col .text-container .table .row .cell {
+  font-size: 21px;
+  color: #4E4E4E;
+  font-family: "ChocolatesRegular", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-3 .two-col .text-container .table .row .cell:nth-of-type(1) {
+  width: 80%;
+}
+.oferta .sec-3 .two-col .text-container .table .row .cell:nth-of-type(2) {
+  width: 20%;
+}
+.oferta .sec-4 {
+  padding-top: 30px;
+}
+.oferta .sec-4 h3 {
+  font-size: 30px;
+  color: #0B594D;
+  font-family: "ProximaSemiBold", sans-serif;
+  z-index: 1;
+  position: relative;
+}
+.oferta .sec-4 hr {
+  height: 2px;
+  width: 60px;
+  background-color: #D91F25;
+  margin: 10px 0 10px 4px;
+  z-index: 1;
+  position: relative;
+}
+.oferta .sec-4 .text {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 50px;
+}
+.oferta .sec-4 .two-col {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+.oferta .sec-4 .two-col:nth-of-type(2) {
+  padding-bottom: 50px;
+}
+.oferta .sec-4 .two-col:nth-of-type(3) {
+  padding-bottom: 50px;
+}
+.oferta .sec-4 .two-col .picture-container {
+  width: 375px;
+  height: 375px;
+  background-color: #e6e6e6;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.oferta .sec-4 .two-col .text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.oferta .sec-4 .two-col .text-container .name {
+  padding-bottom: 10px;
+  font-size: 28px;
+  color: #0B594D;
+  font-family: "ProximaSemiBold", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-4 .two-col .text-container .table {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.oferta .sec-4 .two-col .text-container .table .row {
+  border-bottom: 1px solid #9c9c9c;
+  display: flex;
+  padding: 6px 10px 6px 0;
+  z-index: 1;
+}
+.oferta .sec-4 .two-col .text-container .table .row:nth-of-type(4) {
+  border-bottom: none;
+}
+.oferta .sec-4 .two-col .text-container .table .row.head .cell {
+  font-size: 21px;
+  color: #0B594D;
+  font-family: "ProximaBold", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-4 .two-col .text-container .table .row .cell {
+  font-size: 21px;
+  color: #4E4E4E;
+  font-family: "ChocolatesRegular", sans-serif;
+  z-index: 1;
+}
+.oferta .sec-4 .two-col .text-container .table .row .cell:nth-of-type(1) {
+  width: 50%;
+}
+.oferta .sec-4 .two-col .text-container .table .row .cell:nth-of-type(2) {
+  width: 30%;
+}
+.oferta .sec-4 .two-col .text-container .table .row .cell:nth-of-type(3) {
+  width: 20%;
+}
+.oferta .sec-4 .two-col .text-container hr {
+  width: 100px;
+  background-color: transparent;
+  border-bottom: 1px solid #9c9c9c;
+}
+.oferta .sec-4 .two-col .text-container a {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ChocolatesRegular", sans-serif;
+  z-index: 1;
+  margin-left: 6px;
+}
+.oferta .sec-4 .two-col .text-container a:nth-of-type(2) {
+  font-family: "ChocolatesDemiBold", sans-serif;
+}
+.oferta .sec-4 .two-col .text-container a img {
+  margin-right: 16px;
 }
 
 footer {
