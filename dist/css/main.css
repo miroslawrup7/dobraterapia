@@ -26,6 +26,14 @@
   font-family: "ChocolatesLight";
   src: url("../fonts/TTChocolatesTrialLight.ttf");
 }
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSans Light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -107,6 +115,7 @@ header .right-container nav ul li.parent-sub-menu a {
 }
 header .right-container nav ul li.parent-sub-menu a span {
   line-height: 1em;
+  color: #0B594D;
 }
 header .right-container nav ul li.parent-sub-menu a svg {
   height: 12px;
@@ -1667,6 +1676,274 @@ header .right-container .languages img {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
+}
+
+.opinie {
+  margin-top: 20px;
+}
+.opinie section {
+  padding: 60px 70px;
+  background-color: #fff;
+  position: relative;
+}
+.opinie section.horizontal {
+  display: flex;
+}
+.opinie section.margin-top {
+  margin-top: 20px;
+}
+.opinie .sec-1 {
+  padding-bottom: 0px;
+}
+.opinie .sec-1 .title-container h1 {
+  font-family: "ProximaBold", sans-serif;
+  color: #0B594D;
+  font-size: 50px;
+  text-transform: uppercase;
+  z-index: 3;
+  position: relative;
+}
+.opinie .sec-1 .title-container .sub-title {
+  font-family: "ChocolatesRegular", sans-serif;
+  color: #4E4E4E;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 1;
+  position: relative;
+}
+.opinie .sec-1 .title-container .sub-title span.circle {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #D91F25;
+  display: inline-flex;
+}
+.opinie .sec-1 .boxes-container {
+  display: flex;
+  gap: 20px;
+}
+.opinie .sec-1 .boxes-container .box {
+  flex-basis: 33.33333%;
+  background-color: #F6F6F6;
+  z-index: 1;
+  position: relative;
+}
+.opinie .sec-1 .boxes-container .box img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.opinie .sec-1 .boxes-container .box .titles-wrapper {
+  padding: 10px 20px 20px;
+}
+.opinie .sec-1 .boxes-container .box .titles-wrapper .titles .title {
+  font-family: "ProximaSemiBold", sans-serif;
+  font-size: 22px;
+  color: #0B594D;
+  line-height: 1.2em;
+}
+.opinie .sec-1 .boxes-container .box .titles-wrapper hr {
+  height: 2px;
+  width: 60px;
+  background-color: #D91F25;
+  margin: 10px 0 10px 4px;
+  z-index: 1;
+  position: relative;
+}
+.opinie .sec-1 .boxes-container .box .titles-wrapper .text {
+  font-family: "ChocolatesRegular", sans-serif;
+  color: #4E4E4E;
+  font-size: 17px;
+  line-height: 1.2em;
+  z-index: 3;
+  position: relative;
+}
+.opinie .sec-1 .boxes-container .box::after {
+  content: "";
+  position: absolute;
+  top: 75px;
+  right: 30px;
+  background-image: url("../img/logo_over.png");
+  background-repeat: no-repeat;
+  width: 78px;
+  height: 209px;
+}
+.opinie .sec-5 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 40px;
+}
+.opinie .sec-5 .logo-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  z-index: 2;
+  position: relative;
+}
+.opinie .sec-5 .logo-wrapper img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.opinie .sec-5 .logo-wrapper img:first-child {
+  height: 80px;
+  margin-bottom: 0;
+}
+.opinie .videos-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+.opinie .videos-wrapper iframe {
+  width: calc(50% - 15px);
+  z-index: 2;
+  position: relative;
+  height: 289px;
+}
+.opinie h3 {
+  font-size: 30px;
+  color: #0B594D;
+  font-family: "ProximaBold", sans-serif;
+  z-index: 1;
+  position: relative;
+}
+.opinie h3 strong {
+  font-size: 30px;
+  color: #0B594D;
+  font-family: "ProximaBold", sans-serif;
+}
+.opinie h3 img[alt=trojmiasto] {
+  height: 50px;
+  position: relative;
+  top: 7px;
+}
+.opinie h3 img[alt=facebook] {
+  height: 23px;
+}
+.opinie h3 img[alt=googlemaps] {
+  height: 36px;
+  position: relative;
+  top: 7px;
+}
+.opinie h3 img[alt=youtube] {
+  height: 30px;
+  position: relative;
+  top: 2px;
+}
+.opinie hr {
+  height: 2px;
+  width: 60px;
+  background-color: #D91F25;
+  margin: 10px 0 10px 4px;
+  z-index: 1;
+  position: relative;
+}
+.opinie .text-and-btn-wrapper {
+  display: flex;
+  gap: 40px;
+}
+.opinie .text {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+  z-index: 1;
+  position: relative;
+}
+.opinie .text .btn {
+  display: flex;
+  height: 36px;
+  padding: 0 20px 1px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #0B594D;
+  color: #fff;
+  font-size: 18px;
+  font-family: "ProximaBold", sans-serif;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+  cursor: auto;
+}
+.opinie .text ul {
+  font-size: 20px;
+  color: #4E4E4E;
+  font-family: "ProximaRegular", sans-serif;
+  margin: 20px 0 20px 20px;
+  list-style: none;
+  z-index: 1;
+  position: relative;
+}
+.opinie .text ul li {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin: 6px 0;
+}
+.opinie .text ul li::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  margin-right: 12px;
+  background-color: #0B594D;
+  margin-left: -0.7em;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+.opinie .btns {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+.opinie .btns .btn {
+  width: 240px;
+  padding: 16px 0;
+  font-family: "ProximaMedium", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  align-items: center;
+}
+.opinie .btns .btn svg {
+  fill: #fff;
+  height: 18px;
+  padding-left: 6px;
+  padding-top: 2px;
+}
+.opinie .btns .btn.dark {
+  background-color: #0B594D;
+}
+.opinie .btns .btn.light {
+  background-color: #319181;
+}
+.opinie .picture {
+  font-family: "OpenSans Regular";
+  font-size: 14px;
+  margin: 30px 0;
+  height: -moz-max-content;
+  height: max-content;
+  border: 1px solid #F6F6F6;
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 6px;
+  z-index: 2;
+  position: relative;
+  background-color: #fff;
+}
+.opinie .picture img {
+  display: block;
+  padding-bottom: 20px;
 }
 
 footer {
