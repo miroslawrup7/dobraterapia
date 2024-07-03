@@ -3174,14 +3174,24 @@ header .right-container .languages img {
 
 footer {
   background-color: #0B594D;
-  padding: 30px 40px;
+  padding: 50px 100px;
   gap: 60px;
   display: flex;
   z-index: 1;
   position: relative;
+  justify-content: center;
 }
-footer .box {
-  flex-basis: 33.3333%;
+footer .box:nth-child(1) {
+  flex-basis: 300px;
+  flex-grow: 0;
+}
+footer .box:nth-child(2) {
+  flex-basis: 220px;
+  flex-grow: 0;
+}
+footer .box:nth-child(3) {
+  flex-basis: 300px;
+  flex-grow: 0;
 }
 footer .left-container {
   display: flex;
