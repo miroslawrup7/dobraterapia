@@ -1,5 +1,7 @@
 "use strict";
 
+// accordion ----------------------------------------
+
 const accordionsLoc = document.querySelectorAll(".accordion")
 const jobDetailsLoc = document.querySelector(".job-details");
 
@@ -89,6 +91,91 @@ if (accordionsLoc.length) {
             })
         })
     })
+}
+
+// gallery ----------------------------------------
+const galeryPageLoc = document.querySelector(".gallery")
+
+if (galeryPageLoc) {
+
+    console.log("CCC")
+
+    const lightbox = document.querySelector("#lightbox")
+    const imgWrapper = document.querySelector(".img-wrapper")
+    const gallery = document.querySelector(".gallery-box")
+    const closeBtn = document.querySelector(".close-btn")
+    const prevBtn = document.querySelector(".prev-btn")
+    const nextBtn = document.querySelector(".next-btn")
+
+    const images = gallery.querySelectorAll("img");
+    console.log(images)
+    let clickedImageIdx = null
+
+    images.forEach((image, idx) => {
+        image.addEventListener("click", () => {
+            if (idx === 0) {
+                prevBtn.classList.add("disabled")
+            }
+            if (idx === images.length - 1) {
+                nextBtn.classList.add("disabled")
+            }
+            lightbox.classList.add("active")
+
+            clickedImageIdx = idx
+
+            const img = document.createElement("img")
+            img.src = image.src
+
+            const title = document.createElement("p")
+            title.innerText = image.alt
+
+            if (imgWrapper.querySelector(".img-wrapper > img")) {
+                imgWrapper.removeChild(
+                    imgWrapper.querySelector(".img-wrapper > img")
+                );
+            }
+            imgWrapper.prepend(img)
+
+            prevBtn.addEventListener("click", handlePrevBtn)
+            nextBtn.addEventListener("click", handleNextBtn)
+        });
+    });
+
+    closeBtn.addEventListener("click", () => {
+        lightbox.classList.remove("active")
+        prevBtn.classList.remove("disabled")
+        nextBtn.classList.remove("disabled")
+        prevBtn.removeEventListener("click", handlePrevBtn)
+        nextBtn.removeEventListener("click", handleNextBtn)
+    });
+
+    const handlePrevBtn = () => {
+        const actualImg = imgWrapper.querySelector(".img-wrapper > img")
+
+        if (clickedImageIdx > 0) {
+            nextBtn.classList.remove("disabled")
+            actualImg.src = images[clickedImageIdx - 1].src
+            actualImg.alt = images[clickedImageIdx - 1].alt
+            clickedImageIdx = clickedImageIdx - 1
+        }
+        if (clickedImageIdx === 0) {
+            prevBtn.classList.add("disabled")
+        }
+    };
+
+    const handleNextBtn = () => {
+        const actualImg = imgWrapper.querySelector(".img-wrapper > img")
+
+        if (clickedImageIdx < images.length - 1) {
+            prevBtn.classList.remove("disabled")
+            actualImg.src = images[clickedImageIdx + 1].src
+            actualImg.alt = images[clickedImageIdx + 1].alt
+            clickedImageIdx = clickedImageIdx + 1
+        }
+        if (clickedImageIdx === images.length - 1) {
+            nextBtn.classList.add("disabled")
+        }
+    }
 }
 
 
