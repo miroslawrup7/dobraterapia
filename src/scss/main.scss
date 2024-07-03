@@ -3404,11 +3404,19 @@ main {}
             justify-content: space-between;
             position: relative;
             z-index: 2;
+            gap: 20px;
 
             .photo {
                 position: relative;
                 // height: 100%;
                 display: flex;
+                flex-basis: calc(25% - 4px * 40 / 5);
+
+                img {
+                    height: 286px;
+                    width: 100%;
+                    object-fit: cover;
+                }
 
                 .index {
                     position: absolute;

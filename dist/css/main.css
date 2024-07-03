@@ -2619,10 +2619,18 @@ header .right-container .languages img {
   justify-content: space-between;
   position: relative;
   z-index: 2;
+  gap: 20px;
 }
 .onas .sec-5 .photos .photo {
   position: relative;
   display: flex;
+  flex-basis: calc(25% - 32px);
+}
+.onas .sec-5 .photos .photo img {
+  height: 286px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .onas .sec-5 .photos .photo .index {
   position: absolute;
