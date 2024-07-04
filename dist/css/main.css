@@ -380,11 +380,16 @@ header .right-container .languages img {
   border-radius: 10px;
   z-index: 1;
   position: relative;
+  cursor: pointer;
 }
-.home .sec-3 {
+.home .hidden-wrapper {
+  position: relative;
+  display: none;
+}
+.home .hidden-wrapper .sec-3 {
   padding-bottom: 20px;
 }
-.home .sec-3 h2 {
+.home .hidden-wrapper .sec-3 h2 {
   font-size: 34px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
@@ -393,12 +398,12 @@ header .right-container .languages img {
   z-index: 1;
   position: relative;
 }
-.home .sec-3 h2 strong {
+.home .hidden-wrapper .sec-3 h2 strong {
   font-size: 34px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-3 hr {
+.home .hidden-wrapper .sec-3 hr {
   height: 2px;
   width: 60px;
   background-color: #D91F25;
@@ -406,22 +411,22 @@ header .right-container .languages img {
   z-index: 1;
   position: relative;
 }
-.home .sec-3 .text {
+.home .hidden-wrapper .sec-3 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-4 {
+.home .hidden-wrapper .sec-4 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-4 .picture-container {
+.home .hidden-wrapper .sec-4 .picture-container {
   flex-basis: 50%;
 }
-.home .sec-4 .picture-container img {
+.home .hidden-wrapper .sec-4 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -429,61 +434,61 @@ header .right-container .languages img {
   z-index: 1;
   position: relative;
 }
-.home .sec-4 .description-container {
+.home .hidden-wrapper .sec-4 .description-container {
   flex-basis: 50%;
 }
-.home .sec-4 .description-container h3 {
+.home .hidden-wrapper .sec-4 .description-container h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-4 .description-container h3 strong {
+.home .hidden-wrapper .sec-4 .description-container h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-4 .description-container .text {
+.home .hidden-wrapper .sec-4 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-5 {
+.home .hidden-wrapper .sec-5 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-5 h3 {
+.home .hidden-wrapper .sec-5 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-5 h3 strong {
+.home .hidden-wrapper .sec-5 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-5 .text {
+.home .hidden-wrapper .sec-5 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-6 {
+.home .hidden-wrapper .sec-6 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-6 .picture-container {
+.home .hidden-wrapper .sec-6 .picture-container {
   flex-basis: 50%;
 }
-.home .sec-6 .picture-container img {
+.home .hidden-wrapper .sec-6 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -491,10 +496,10 @@ header .right-container .languages img {
   z-index: 1;
   position: relative;
 }
-.home .sec-6 .description-container {
+.home .hidden-wrapper .sec-6 .description-container {
   flex-basis: 50%;
 }
-.home .sec-6 .description-container h3 {
+.home .hidden-wrapper .sec-6 .description-container h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
@@ -502,12 +507,12 @@ header .right-container .languages img {
   z-index: 1;
   position: relative;
 }
-.home .sec-6 .description-container h3 strong {
+.home .hidden-wrapper .sec-6 .description-container h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-6 .description-container .text {
+.home .hidden-wrapper .sec-6 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
@@ -515,39 +520,39 @@ header .right-container .languages img {
   z-index: 1;
   position: relative;
 }
-.home .sec-7 {
+.home .hidden-wrapper .sec-7 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-7 h3 {
+.home .hidden-wrapper .sec-7 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-7 h3 strong {
+.home .hidden-wrapper .sec-7 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-7 .text {
+.home .hidden-wrapper .sec-7 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-8 {
+.home .hidden-wrapper .sec-8 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-8 .picture-container {
+.home .hidden-wrapper .sec-8 .picture-container {
   flex-basis: 50%;
 }
-.home .sec-8 .picture-container img {
+.home .hidden-wrapper .sec-8 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -555,85 +560,85 @@ header .right-container .languages img {
   z-index: 1;
   position: relative;
 }
-.home .sec-8 .description-container {
+.home .hidden-wrapper .sec-8 .description-container {
   flex-basis: 50%;
 }
-.home .sec-8 .description-container h3 {
+.home .hidden-wrapper .sec-8 .description-container h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-8 .description-container h3 strong {
+.home .hidden-wrapper .sec-8 .description-container h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-8 .description-container .text {
+.home .hidden-wrapper .sec-8 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-9 {
+.home .hidden-wrapper .sec-9 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-9 h3 {
+.home .hidden-wrapper .sec-9 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-9 h3 strong {
+.home .hidden-wrapper .sec-9 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-9 .text {
+.home .hidden-wrapper .sec-9 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-10 {
+.home .hidden-wrapper .sec-10 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-10 h3 {
+.home .hidden-wrapper .sec-10 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-10 h3 strong {
+.home .hidden-wrapper .sec-10 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-10 .text {
+.home .hidden-wrapper .sec-10 .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-11 {
+.home .hidden-wrapper .sec-11 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-11 .picture-container {
+.home .hidden-wrapper .sec-11 .picture-container {
   flex-basis: 50%;
 }
-.home .sec-11 .picture-container img {
+.home .hidden-wrapper .sec-11 .picture-container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -641,49 +646,49 @@ header .right-container .languages img {
   z-index: 1;
   position: relative;
 }
-.home .sec-11 .description-container {
+.home .hidden-wrapper .sec-11 .description-container {
   flex-basis: 50%;
 }
-.home .sec-11 .description-container h3 {
+.home .hidden-wrapper .sec-11 .description-container h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-11 .description-container h3 strong {
+.home .hidden-wrapper .sec-11 .description-container h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-11 .description-container .text {
+.home .hidden-wrapper .sec-11 .description-container .text {
   font-size: 20px;
   color: #4E4E4E;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-12 {
+.home .hidden-wrapper .sec-12 {
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 40px;
 }
-.home .sec-12 h3 {
+.home .hidden-wrapper .sec-12 h3 {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaRegular", sans-serif;
   z-index: 1;
   position: relative;
 }
-.home .sec-12 h3 strong {
+.home .hidden-wrapper .sec-12 h3 strong {
   font-size: 30px;
   color: #0B594D;
   font-family: "ProximaBold", sans-serif;
 }
-.home .sec-12 .lists-container {
+.home .hidden-wrapper .sec-12 .lists-container {
   display: flex;
 }
-.home .sec-12 .lists-container ul {
+.home .hidden-wrapper .sec-12 .lists-container ul {
   z-index: 1;
   position: relative;
   flex-basis: 33.33333%;
@@ -695,12 +700,12 @@ header .right-container .languages img {
   display: flex;
   flex-direction: column;
 }
-.home .sec-12 .lists-container ul li {
+.home .hidden-wrapper .sec-12 .lists-container ul li {
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home .sec-12 .lists-container ul li::before {
+.home .hidden-wrapper .sec-12 .lists-container ul li::before {
   content: "";
   height: 6px;
   width: 6px;

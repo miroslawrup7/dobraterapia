@@ -178,3 +178,16 @@ if (galeryPageLoc) {
     }
 }
 
+// home read more
+const readMoreBtn = document.querySelector(".home .sec-2 .btn")
+const hiddenWrapper = document.querySelector(".home .hidden-wrapper")
+
+readMoreBtn.addEventListener("click", ()=>{
+    if (window.getComputedStyle(hiddenWrapper).display === "none") {
+        hiddenWrapper.style.display = "block";
+    } else {
+        hiddenWrapper.style.display = "none";
+    }
+    
+})
+
