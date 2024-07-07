@@ -4400,7 +4400,7 @@ footer {
         }
 
         .right-container {
-            border: 1px dotted red;
+            // border: 1px dotted red;
             justify-content: space-between;
             width: 100%;
             height: 85px;
@@ -4413,7 +4413,7 @@ footer {
             nav {
 
                 ul.master {
-                    border: 1px dotted blue;
+                    // border: 1px dotted blue;
                     transition: left ease-out .5s;
                     display: flex;
                     position: fixed;
@@ -4469,7 +4469,7 @@ footer {
 
 
                                 li {
-                                    padding: 5px;
+                                    padding: 2px 5px;
                                     width: max-content;
                                     max-width: 100%;
 
@@ -4536,7 +4536,7 @@ footer {
 
                             &:nth-child(1) {
                                 transform: rotate(45deg);
-                                top: 5px;
+                                top: 8px;
                             }
 
                             &:nth-child(2) {
@@ -4546,7 +4546,7 @@ footer {
 
                             &:nth-child(3) {
                                 transform: rotate(-45deg);
-                                bottom: 5px;
+                                bottom: 8px;
                             }
                         }
                     }

@@ -191,5 +191,50 @@ readMoreBtn.addEventListener("click", ()=>{
     
 })
 
+// mobile menu
+
+const hamburgerLoc = document.querySelector(".hamburger");
+const mobileMenuLoc = document.querySelector("header nav > ul");
+const hamburgerBarsLoc = document.querySelector(".hamburger .bars");
+const parentMenuArrLoc = document.querySelectorAll("nav .parent-sub-menu");
+const parentMenuHoverOnArrLoc = document.querySelectorAll("nav .parent-sub-menu");
+
+hamburgerLoc.addEventListener("click", () => {
+
+    parentMenuHoverOnArrLoc.forEach(element => {
+        element.classList.remove("hover-on")
+    })
+
+    mobileMenuLoc.classList.toggle("show");
+    hamburgerBarsLoc.classList.toggle("ham");
+
+    const mobileMenuElemLoc = document.querySelectorAll("header nav ul.show li a");
+ 
+    mobileMenuElemLoc.forEach(elem => {
+        elem.addEventListener("click", () => {
+            mobileMenuLoc.classList.remove("show");
+            hamburgerBarsLoc.classList.add("ham");
+        });
+    });
+})
+
+parentMenuArrLoc.forEach(el => {
+
+    el.addEventListener("click", (e) => {
+        e.preventDefault;
+        
+
+        if (e.target.querySelector(".sub-menu").classList.contains("mobile-active")) {
+            e.target.querySelector(".sub-menu").classList.remove("mobile-active");
+        } else {
+            parentMenuArrLoc.forEach(elm => {
+                elm.querySelector(".sub-menu").classList.remove("mobile-active")
+            })
+            e.target.querySelector(".sub-menu").classList.add("mobile-active");
+        }
+        // e.target.querySelector(".sub-menu").classList.toggle("mobile-active");
+    })
+})
+
 
 //# sourceMappingURL=main.js.map
