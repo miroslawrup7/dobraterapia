@@ -237,7 +237,11 @@ header {
                 }
             }
 
-            .hamburger {}
+            .hamburger {
+                .ham-txt {
+                    display: none;
+                }
+            }
         }
 
         .languages {
@@ -4574,6 +4578,7 @@ footer {
                         font-family: 'ProximaSemiBold', sans-serif;
                         font-size: 20px;
                         color: $ciemno-zielony;
+                        display: flex;
                     }
                 }
             }
