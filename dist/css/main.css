@@ -3403,6 +3403,14 @@ footer .right-container button {
 }
 
 @media (max-width: 600px) {
+  .mrg-btm-0 {
+    margin-bottom: 0 !important;
+  }
+
+  .pdg-btm-0 {
+    padding-bottom: 0 !important;
+  }
+
   .container {
     width: 100vw;
   }
@@ -3555,6 +3563,10 @@ footer .right-container button {
     font-size: 20px;
     color: #0B594D;
     display: flex;
+  }
+
+  header:has(~ .oferta) .left-container {
+    display: none;
   }
 
   main {
@@ -3761,6 +3773,122 @@ footer .right-container button {
   }
   .home .hidden-wrapper .sec-12 .lists-container ul li::before {
     margin-top: 8px;
+  }
+
+  .oferta .sec-1 {
+    padding-top: 32px;
+  }
+  .oferta .sec-1 .title-container h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .oferta .sec-1 .title-container .text {
+    font-size: 14px;
+  }
+  .oferta .sec-1 .title-container ul {
+    font-size: 14px;
+  }
+  .oferta .sec-1 .title-container ul li::before {
+    margin-top: 8px;
+  }
+  .oferta .sec-2 {
+    padding-top: 0px;
+  }
+  .oferta .sec-2 h3 {
+    font-size: 18px;
+  }
+  .oferta .sec-2 .text {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .oferta .sec-2 .two-col {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .oferta .sec-2 .two-col .picture-container {
+    width: 100%;
+    padding-top: 100%;
+    height: auto;
+  }
+  .oferta .sec-2 .two-col .text-container .name {
+    font-size: 20px;
+  }
+  .oferta .sec-2 .two-col .text-container .table {
+    margin-bottom: 12px;
+  }
+  .oferta .sec-2 .two-col .text-container .table .row.head .cell {
+    font-size: 14px;
+  }
+  .oferta .sec-2 .two-col .text-container .table .row .cell {
+    font-size: 14px;
+  }
+  .oferta .sec-2 .two-col:nth-of-type(2) {
+    padding-bottom: 0px;
+  }
+  .oferta .sec-3 {
+    padding-top: 0px;
+  }
+  .oferta .sec-3 h3 {
+    font-size: 18px;
+  }
+  .oferta .sec-3 .two-col {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .oferta .sec-3 .two-col .text-container {
+    width: auto;
+  }
+  .oferta .sec-3 .two-col .text-container .table {
+    margin-bottom: 12px;
+  }
+  .oferta .sec-3 .two-col .text-container .table .row.head .cell {
+    font-size: 14px;
+  }
+  .oferta .sec-3 .two-col .text-container .table .row .cell {
+    font-size: 14px;
+  }
+  .oferta .sec-3 .text {
+    font-size: 14px;
+  }
+  .oferta .sec-4 {
+    padding-top: 0px;
+  }
+  .oferta .sec-4 h3 {
+    font-size: 18px;
+  }
+  .oferta .sec-4 .text {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .oferta .sec-4 .two-col {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .oferta .sec-4 .two-col .picture-container {
+    width: 100%;
+    padding-top: 100%;
+    height: auto;
+  }
+  .oferta .sec-4 .two-col .text-container {
+    width: auto;
+  }
+  .oferta .sec-4 .two-col .text-container .name {
+    font-size: 20px;
+  }
+  .oferta .sec-4 .two-col .text-container .table {
+    margin-bottom: 12px;
+  }
+  .oferta .sec-4 .two-col .text-container .table .row.head .cell {
+    font-size: 14px;
+  }
+  .oferta .sec-4 .two-col .text-container .table .row .cell {
+    font-size: 14px;
+  }
+  .oferta .sec-4 .two-col .text-container a {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
   }
 
   footer {
