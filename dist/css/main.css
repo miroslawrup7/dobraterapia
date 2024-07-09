@@ -3577,6 +3577,10 @@ footer .right-container button {
     display: none;
   }
 
+  header:has(~ .przygotowanie) .left-container {
+    display: none;
+  }
+
   main {
     margin-top: 10px;
   }
@@ -4031,6 +4035,70 @@ footer .right-container button {
   }
   .schorzenia .sec-5 .text {
     font-size: 14px;
+  }
+
+  .przygotowanie .sec-1 {
+    padding-top: 28px;
+  }
+  .przygotowanie .sec-1 .title-container h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .przygotowanie .sec-5 {
+    padding-top: 0px;
+  }
+  .przygotowanie .sec-5 h3 {
+    font-size: 18px;
+  }
+  .przygotowanie .sec-5 .text {
+    font-size: 14px;
+  }
+  .przygotowanie .sec-5 .text ul li {
+    font-size: 14px;
+  }
+  .przygotowanie .sec-5 .text ul li::before {
+    margin-top: 8px;
+  }
+  .przygotowanie .sec-5 .text .btn {
+    height: 26px;
+    padding: 0 12px 1px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .przygotowanie .sec-8 {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+  .przygotowanie .sec-8 .picture-container {
+    display: none;
+  }
+  .przygotowanie .sec-8 .description-container .btn {
+    height: 26px;
+    padding: 0 12px 1px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .przygotowanie .sec-8 .description-container ul {
+    margin-bottom: 0;
+  }
+  .przygotowanie .sec-8 .description-container ul li {
+    font-size: 14px;
+  }
+  .przygotowanie .sec-8 .description-container ul li::before {
+    margin-top: 8px;
+  }
+  .przygotowanie .photos {
+    flex-direction: column;
+    padding: 24px 36px;
+    gap: 36px;
+  }
+  .przygotowanie .photos .photo-box {
+    width: auto;
+  }
+  .przygotowanie .photos .photo-box .number {
+    width: 46px;
+    height: 46px;
+    font-size: 36px;
   }
 
   footer {

@@ -4613,6 +4613,10 @@ footer {
         display: none;
     }
 
+    header:has(~ .przygotowanie) .left-container {
+        display: none;
+    }
+
     main {
         margin-top: 10px;
     }
@@ -5279,6 +5283,98 @@ footer {
         .sec-5 {
             .text {
                 font-size: 14px;
+            }
+        }
+    }
+
+    .przygotowanie {
+        .sec-1 {
+            padding-top: 28px;
+
+            .title-container {
+                h1 {
+                    font-size: 20px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        .sec-5 {
+            padding-top: 0px;
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .text {
+                font-size: 14px;
+
+                ul {
+                    // margin-bottom: 0;
+
+                    li {
+                        font-size: 14px;
+
+                        &::before {
+                            margin-top: 8px;
+                        }
+                    }
+                }
+
+                .btn {
+                    height: 26px;
+                    padding: 0 12px 1px 12px;
+                    border-radius: 6px;
+                    font-size: 14px;
+                }
+            }
+
+
+        }
+
+        .sec-8 {
+            flex-direction: column;
+            padding-top: 0px;
+
+            .picture-container {
+                display: none;
+            }
+
+            .description-container {
+                .btn {
+                    height: 26px;
+                    padding: 0 12px 1px 12px;
+                    border-radius: 6px;
+                    font-size: 14px;
+                }
+
+                ul {
+                    margin-bottom: 0;
+
+                    li {
+                        font-size: 14px;
+
+                        &::before {
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .photos {
+            flex-direction: column;
+            padding: 24px 36px;
+            gap: 36px;
+
+            .photo-box {
+                width: auto;
+
+                .number {
+                    width: 46px;
+                    height: 46px;
+                    font-size: 36px;
+                }
             }
         }
     }
