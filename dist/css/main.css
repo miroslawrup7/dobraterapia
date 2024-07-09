@@ -3593,6 +3593,10 @@ footer .right-container button {
     display: none;
   }
 
+  header:has(~ .onas4) .left-container {
+    display: none;
+  }
+
   main {
     margin-top: 10px;
   }
@@ -4252,6 +4256,60 @@ footer .right-container button {
     height: auto;
   }
   .onas3 .sec-5 .description {
+    font-size: 14px;
+  }
+
+  .onas4 section {
+    padding: 40px 70px;
+  }
+  .onas4 .sec-3 h2 {
+    font-size: 18px;
+  }
+  .onas4 .sec-4 {
+    flex-direction: column;
+  }
+  .onas4 .sec-4 .picture-container {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+  }
+  .onas4 .sec-4 .picture-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .onas4 .sec-4 .picture-container img.height-auto {
+    height: 100%;
+  }
+  .onas4 .sec-4 .picture-container img:nth-of-type(2) {
+    display: none;
+  }
+  .onas4 .sec-4 .description-container h3 {
+    font-size: 16px;
+  }
+  .onas4 .sec-4 .description-container .text {
+    font-size: 14px;
+  }
+  .onas4 .sec-5 h3 {
+    font-size: 18px;
+  }
+  .onas4 .sec-5 .text {
+    font-size: 14px;
+  }
+  .onas4 .sec-5 .photos {
+    flex-direction: column;
+    height: auto;
+    padding-top: 0;
+  }
+  .onas4 .sec-5 .photos .photo {
+    flex-basis: auto;
+  }
+  .onas4 .sec-5 .photos .photo img {
+    height: auto;
+  }
+  .onas4 .sec-5 .description {
     font-size: 14px;
   }
 
