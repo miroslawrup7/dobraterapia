@@ -3581,6 +3581,10 @@ footer .right-container button {
     display: none;
   }
 
+  header:has(~ .onas) .left-container {
+    display: none;
+  }
+
   main {
     margin-top: 10px;
   }
@@ -4099,6 +4103,52 @@ footer .right-container button {
     width: 46px;
     height: 46px;
     font-size: 36px;
+  }
+
+  .onas section {
+    padding: 40px 70px;
+  }
+  .onas .sec-3 h2 {
+    font-size: 18px;
+  }
+  .onas .sec-4 {
+    flex-direction: column;
+  }
+  .onas .sec-4 .picture-container {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+  }
+  .onas .sec-4 .picture-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .onas .sec-4 .description-container h3 {
+    font-size: 16px;
+  }
+  .onas .sec-4 .description-container .text {
+    font-size: 14px;
+  }
+  .onas .sec-5 h3 {
+    font-size: 18px;
+  }
+  .onas .sec-5 .text {
+    font-size: 14px;
+  }
+  .onas .sec-5 .photos {
+    flex-direction: column;
+  }
+  .onas .sec-5 .photos .photo {
+    flex-basis: auto;
+  }
+  .onas .sec-5 .photos .photo img {
+    height: auto;
+  }
+  .onas .sec-5 .description {
+    font-size: 14px;
   }
 
   footer {

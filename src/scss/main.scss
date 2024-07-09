@@ -4617,6 +4617,11 @@ footer {
         display: none;
     }
 
+    header:has(~ .onas) .left-container {
+        display: none;
+    }
+
+
     main {
         margin-top: 10px;
     }
@@ -5375,6 +5380,75 @@ footer {
                     height: 46px;
                     font-size: 36px;
                 }
+            }
+        }
+    }
+
+    .onas {
+
+        section {
+            padding: 40px 70px;
+        }
+
+
+        .sec-3 {
+            h2 {
+                font-size: 18px;
+            }
+        }
+
+        .sec-4 {
+            flex-direction: column;
+
+            .picture-container {
+                width: 100%;
+                padding-top: 100%;
+                position: relative;
+
+                img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+
+            .description-container {
+                h3 {
+                    font-size: 16px;
+                }
+
+                .text {
+                    font-size: 14px;
+                }
+
+            }
+        }
+
+        .sec-5 {
+            h3 {
+                font-size: 18px;
+            }
+
+            .text {
+                font-size: 14px;
+            }
+
+            .photos {
+                flex-direction: column;
+
+                .photo {
+                    flex-basis: auto;
+
+                    img {
+                        height: auto;
+                    }
+                }
+            }
+
+            .description {
+                font-size: 14px;
             }
         }
     }
