@@ -1926,6 +1926,7 @@ header .right-container .languages img {
   gap: 16px;
   flex-shrink: 0;
   margin-right: 30px;
+  z-index: 2;
 }
 .opinie .btns .btn {
   width: 240px;
@@ -3597,6 +3598,10 @@ footer .right-container button {
     display: none;
   }
 
+  header:has(~ .opinie) .left-container {
+    display: none;
+  }
+
   main {
     margin-top: 10px;
   }
@@ -4311,6 +4316,66 @@ footer .right-container button {
   }
   .onas4 .sec-5 .description {
     font-size: 14px;
+  }
+
+  .opinie .sec-1 {
+    padding: 32px 70px;
+  }
+  .opinie .sec-1 .title-container h1 {
+    font-size: 20px;
+  }
+  .opinie .sec-5 {
+    padding-top: 0px;
+  }
+  .opinie .sec-5 h3 {
+    font-size: 18px;
+  }
+  .opinie .sec-5 .text {
+    font-size: 14px;
+  }
+  .opinie .sec-5 .logo-wrapper {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .opinie .sec-5 .logo-wrapper img:nth-of-type(1) {
+    height: 50px;
+  }
+  .opinie .sec-5 .logo-wrapper img:nth-of-type(2) {
+    height: 24px;
+  }
+  .opinie .sec-5 .logo-wrapper img:nth-of-type(3) {
+    height: 24px;
+  }
+  .opinie .sec-5 .logo-wrapper img:nth-of-type(4) {
+    height: 24px;
+  }
+  .opinie .sec-5 .picture {
+    font-size: 13px;
+  }
+  .opinie .sec-5 .picture img {
+    max-width: 100%;
+  }
+  .opinie .sec-5 .text-and-btn-wrapper {
+    flex-direction: column;
+  }
+  .opinie .sec-5 .text-and-btn-wrapper .btns {
+    flex-direction: row;
+    margin-right: 0px;
+  }
+  .opinie .sec-5 .text-and-btn-wrapper .btns .btn {
+    width: 180px;
+    padding: 8px 0;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .opinie .sec-5 .text-and-btn-wrapper .btns .btn svg {
+    height: 14px;
+  }
+  .opinie .sec-5 .videos-wrapper {
+    flex-direction: column;
+  }
+  .opinie .sec-5 .videos-wrapper iframe {
+    width: auto;
   }
 
   footer {
