@@ -3403,6 +3403,10 @@ footer .right-container button {
 }
 
 @media (max-width: 600px) {
+  html {
+    scroll-padding-top: 85px;
+  }
+
   .mrg-btm-0 {
     margin-bottom: 0 !important;
   }
@@ -3566,6 +3570,10 @@ footer .right-container button {
   }
 
   header:has(~ .oferta) .left-container {
+    display: none;
+  }
+
+  header:has(~ .schorzenia) .left-container {
     display: none;
   }
 
@@ -3889,6 +3897,140 @@ footer .right-container button {
     display: flex;
     align-items: center;
     margin-bottom: 6px;
+  }
+
+  .schorzenia .sec-1 {
+    padding-top: 28px;
+  }
+  .schorzenia .sec-1 .title-container h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .schorzenia .sec-2 {
+    padding-top: 0px;
+  }
+  .schorzenia .sec-2 h3 {
+    font-size: 18px;
+  }
+  .schorzenia .sec-2 .float {
+    padding-top: 12px;
+  }
+  .schorzenia .sec-2 .float .text-container img {
+    display: block;
+    padding-top: 100%;
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .schorzenia .sec-2 .float .text-container .name {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  .schorzenia .sec-2 .float .text-container .text {
+    font-size: 14px;
+  }
+  .schorzenia .sec-2 .clearfloat {
+    padding-top: 0px;
+  }
+  .schorzenia .sec-2 .clearfloat .name {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  .schorzenia .sec-2 .clearfloat .text {
+    font-size: 14px;
+  }
+  .schorzenia .sec-3 {
+    padding-top: 0px;
+  }
+  .schorzenia .sec-3 h3 {
+    font-size: 18px;
+    padding-top: 12px;
+  }
+  .schorzenia .sec-3 .float {
+    padding-top: 12px;
+  }
+  .schorzenia .sec-3 .float .text-container img {
+    display: block;
+    padding-top: 100%;
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .schorzenia .sec-3 .float .text-container .name {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  .schorzenia .sec-3 .float .text-container .text {
+    font-size: 14px;
+  }
+  .schorzenia .sec-3 .clearfloat {
+    padding-top: 0px;
+  }
+  .schorzenia .sec-3 .clearfloat .name {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  .schorzenia .sec-3 .clearfloat .text {
+    font-size: 14px;
+  }
+  .schorzenia .sec-4 {
+    padding-top: 0px;
+  }
+  .schorzenia .sec-4 h3 {
+    font-size: 18px;
+    padding-top: 12px;
+  }
+  .schorzenia .sec-4 .float {
+    padding-top: 12px;
+  }
+  .schorzenia .sec-4 .float .text-container img {
+    display: block;
+    padding-top: 100%;
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .schorzenia .sec-4 .float .text-container .name {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  .schorzenia .sec-4 .float .text-container .text {
+    font-size: 14px;
+  }
+  .schorzenia .sec-4 .clearfloat {
+    padding-top: 0px;
+  }
+  .schorzenia .sec-4 .clearfloat .name {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  .schorzenia .sec-4 .clearfloat .text {
+    font-size: 14px;
+  }
+  .schorzenia .sec-12 {
+    padding-top: 0;
+  }
+  .schorzenia .sec-12 h3 {
+    font-size: 18px;
+  }
+  .schorzenia .sec-12 h3 strong {
+    font-size: 18px;
+  }
+  .schorzenia .sec-12 .lists-container {
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+  .schorzenia .sec-12 .lists-container ul {
+    margin: 0px 20px;
+  }
+  .schorzenia .sec-12 .lists-container ul li {
+    font-size: 14px;
+  }
+  .schorzenia .sec-12 .lists-container ul li:before {
+    margin-top: 8px;
+  }
+  .schorzenia .sec-5 .text {
+    font-size: 14px;
   }
 
   footer {

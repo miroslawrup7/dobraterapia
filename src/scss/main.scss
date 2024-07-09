@@ -4385,6 +4385,10 @@ footer {
 
 @media (max-width: 600px) {
 
+    html {
+        scroll-padding-top: 85px;
+    }
+
     .mrg-btm-0 {
         margin-bottom: 0 !important;
     }
@@ -4602,6 +4606,10 @@ footer {
     }
 
     header:has(~ .oferta) .left-container {
+        display: none;
+    }
+
+    header:has(~ .schorzenia) .left-container {
         display: none;
     }
 
@@ -5078,6 +5086,209 @@ footer {
             }
         }
     }
+
+    .schorzenia {
+        .sec-1 {
+            padding-top: 28px;
+
+            .title-container {
+                h1 {
+                    font-size: 20px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        .sec-2 {
+            padding-top: 0px;
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .float {
+                padding-top: 12px;
+
+                .text-container {
+
+                    img {
+                        display: block;
+                        padding-top: 100%;
+                        width: 100%;
+                        height: auto;
+                        float: none;
+                    }
+
+                    .name {
+                        font-size: 16px;
+                        padding-top: 12px;
+                    }
+
+                    .text {
+                        font-size: 14px;
+                        // margin-bottom: 24px;
+                    }
+                }
+            }
+
+            .clearfloat {
+                padding-top: 0px;
+
+                .name {
+                    font-size: 16px;
+                    padding-top: 12px;
+                }
+
+                .text {
+                    font-size: 14px;
+                    // margin-bottom: 24px;
+                }
+            }
+
+        }
+
+        .sec-3 {
+            padding-top: 0px;
+
+
+            h3 {
+                font-size: 18px;
+                padding-top: 12px;
+            }
+
+            .float {
+                padding-top: 12px;
+
+                .text-container {
+
+                    img {
+                        display: block;
+                        padding-top: 100%;
+                        width: 100%;
+                        height: auto;
+                        float: none;
+                    }
+
+                    .name {
+                        font-size: 16px;
+                        padding-top: 12px;
+                    }
+
+                    .text {
+                        font-size: 14px;
+                        // margin-bottom: 24px;
+                    }
+                }
+            }
+
+            .clearfloat {
+                padding-top: 0px;
+
+                .name {
+                    font-size: 16px;
+                    padding-top: 12px;
+                }
+
+                .text {
+                    font-size: 14px;
+                    // margin-bottom: 24px;
+                }
+            }
+
+        }
+
+        .sec-4 {
+            padding-top: 0px;
+
+
+            h3 {
+                font-size: 18px;
+                padding-top: 12px;
+            }
+
+            .float {
+                padding-top: 12px;
+
+                .text-container {
+
+                    img {
+                        display: block;
+                        padding-top: 100%;
+                        width: 100%;
+                        height: auto;
+                        float: none;
+                    }
+
+                    .name {
+                        font-size: 16px;
+                        padding-top: 12px;
+                    }
+
+                    .text {
+                        font-size: 14px;
+                        // margin-bottom: 24px;
+                    }
+                }
+            }
+
+            .clearfloat {
+                padding-top: 0px;
+
+                .name {
+                    font-size: 16px;
+                    padding-top: 12px;
+                }
+
+                .text {
+                    font-size: 14px;
+                    // margin-bottom: 24px;
+                }
+            }
+
+        }
+
+        .sec-12 {
+            padding-top: 0;
+
+            h3 {
+                font-size: 18px;
+
+                strong {
+                    font-size: 18px;
+                }
+            }
+
+            .lists-container {
+                flex-direction: column;
+                margin: 10px 0px;
+
+                ul {
+                    margin: 0px 20px;
+
+                    li {
+                        font-size: 14px;
+
+                        &:before {
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec-5 {
+            .text {
+                font-size: 14px;
+            }
+        }
+    }
+
+
+
+
+
+
+
 
     footer {
         flex-direction: column;
