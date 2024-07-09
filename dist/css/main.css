@@ -3608,6 +3608,10 @@ footer .right-container button {
     display: none;
   }
 
+  header:has(~ .kontakt) .left-container {
+    display: none;
+  }
+
   main {
     margin-top: 10px;
   }
@@ -4416,6 +4420,49 @@ footer .right-container button {
   }
   .cwiczenia .sec-5 .videos-wrapper iframe {
     height: 189px;
+  }
+
+  .kontakt .sec-1 {
+    padding: 36px 70px;
+  }
+  .kontakt .sec-1 .title-container h1 {
+    font-size: 20px;
+  }
+  .kontakt .sec-5 {
+    padding-top: 0px;
+  }
+  .kontakt .sec-5 h3 {
+    font-size: 18px;
+  }
+  .kontakt .sec-5 h3.padding-top {
+    padding-top: 30px;
+  }
+  .kontakt .sec-5 .text-and-map-wrapper {
+    flex-direction: column;
+  }
+  .kontakt .sec-5 .text-and-map-wrapper .text {
+    width: 100%;
+    font-size: 14px;
+  }
+  .kontakt .sec-5 .text-and-map-wrapper .map {
+    position: static;
+    width: 100%;
+  }
+  .kontakt .sec-5 .text ul {
+    font-size: 14px;
+  }
+  .kontakt .sec-5 .text ul li:before {
+    margin-top: 8px;
+  }
+  .kontakt .sec-5 .accordion {
+    padding: 10px 18px;
+    margin: 24px 0 24px;
+  }
+  .kontakt .sec-5 .accordion .row .title-row .title-wrapper .title {
+    font-size: 16px;
+  }
+  .kontakt .sec-5 .accordion .row .content-row {
+    font-size: 14px;
   }
 
   #lightbox .lightbox-inner {

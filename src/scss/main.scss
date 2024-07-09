@@ -4644,6 +4644,10 @@ footer {
         display: none;
     }
 
+    header:has(~ .kontakt) .left-container {
+        display: none;
+    }
+
 
     main {
         margin-top: 10px;
@@ -5828,6 +5832,75 @@ footer {
             .videos-wrapper {
                 iframe {
                     height: 189px;
+                }
+            }
+        }
+    }
+
+    .kontakt {
+        .sec-1 {
+            padding: 36px 70px;
+
+            .title-container {
+                h1 {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .sec-5 {
+            padding-top: 0px;
+
+            h3 {
+                font-size: 18px;
+
+                &.padding-top {
+                    padding-top: 30px;
+                }
+            }
+
+            .text-and-map-wrapper {
+                flex-direction: column;
+
+                .text {
+                    width: 100%;
+                    font-size: 14px;
+                }
+
+                .map {
+                    position: static;
+                    width: 100%;
+                }
+            }
+
+            .text {
+                ul {
+                    font-size: 14px;
+
+                    li {
+                        &:before {
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+
+            .accordion {
+                padding: 10px 18px;
+                margin: 24px 0 24px;
+
+                .row {
+                    .title-row {
+                        .title-wrapper {
+                            .title {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .content-row {
+                        font-size: 14px;
+                    }
                 }
             }
         }
