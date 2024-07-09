@@ -2087,6 +2087,8 @@ header .right-container .languages img {
   color: #0B594D;
   font-family: "ProximaRegular, sans-serif";
   line-height: 0.8em;
+  z-index: 2;
+  position: relative;
 }
 .cwiczenia .sec-5 hr {
   height: 2px;
@@ -3602,6 +3604,10 @@ footer .right-container button {
     display: none;
   }
 
+  header:has(~ .cwiczenia) .left-container {
+    display: none;
+  }
+
   main {
     margin-top: 10px;
   }
@@ -4376,6 +4382,60 @@ footer .right-container button {
   }
   .opinie .sec-5 .videos-wrapper iframe {
     width: auto;
+  }
+
+  .cwiczenia .sec-1 {
+    padding: 36px 70px;
+  }
+  .cwiczenia .sec-1 .title-container h1 {
+    font-size: 20px;
+  }
+  .cwiczenia .sec-5 {
+    padding-top: 0px;
+  }
+  .cwiczenia .sec-5 h3 {
+    font-size: 18px;
+  }
+  .cwiczenia .sec-5 .text {
+    font-size: 14px;
+  }
+  .cwiczenia .sec-5 .text ul {
+    font-size: 14px;
+  }
+  .cwiczenia .sec-5 .text ul li:before {
+    margin-top: 8px;
+  }
+  .cwiczenia .sec-5 .text .photos .gallery-box {
+    flex-direction: column;
+  }
+  .cwiczenia .sec-5 .text .photos .gallery-box img {
+    width: 100%;
+  }
+  .cwiczenia .sec-5 h3 + p {
+    font-size: 18px;
+  }
+  .cwiczenia .sec-5 .videos-wrapper iframe {
+    height: 189px;
+  }
+
+  #lightbox .lightbox-inner {
+    width: 100vw;
+    height: 100vh;
+  }
+  #lightbox .lightbox-inner .img-wrapper {
+    width: 100%;
+  }
+  #lightbox .lightbox-inner .close-btn {
+    top: 20px;
+  }
+  #lightbox .lightbox-inner .close-btn svg {
+    width: 40px;
+  }
+  #lightbox .lightbox-inner .next-btn svg {
+    width: 40px;
+  }
+  #lightbox .lightbox-inner .prev-btn svg {
+    width: 40px;
   }
 
   footer {

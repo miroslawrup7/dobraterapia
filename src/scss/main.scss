@@ -2718,6 +2718,8 @@ main {}
                 color: $ciemno-zielony;
                 font-family: 'ProximaRegular, sans-serif';
                 line-height: 0.8em;
+                z-index: 2;
+                position: relative;
             }
         }
 
@@ -4638,6 +4640,10 @@ footer {
         display: none;
     }
 
+    header:has(~ .cwiczenia) .left-container {
+        display: none;
+    }
+
 
     main {
         margin-top: 10px;
@@ -5773,9 +5779,88 @@ footer {
         }
     }
 
+    .cwiczenia {
+        .sec-1 {
+            padding: 36px 70px;
+
+            .title-container {
+                h1 {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .sec-5 {
+            padding-top: 0px;
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .text {
+                font-size: 14px;
+
+                ul {
+                    font-size: 14px;
+
+                    li {
+                        &:before {
+                            margin-top: 8px;
+                        }
+                    }
+                }
+
+                .photos {
+                    .gallery-box {
+                        flex-direction: column;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            h3+p {
+                font-size: 18px;
+            }
+
+            .videos-wrapper {
+                iframe {
+                    height: 189px;
+                }
+            }
+        }
+    }
 
 
 
+    #lightbox {
+        .lightbox-inner {
+            width: 100vw;
+            height: 100vh;
+
+            .img-wrapper {
+                width: 100%;
+            }
+
+            .close-btn {
+                top: 20px;
+
+                svg {
+                    width: 40px;
+                }
+            }
+
+            .next-btn svg {
+                width: 40px;
+            }
+
+            .prev-btn svg {
+                width: 40px;
+            }
+        }
+    }
 
 
 
